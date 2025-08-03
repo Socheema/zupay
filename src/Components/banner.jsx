@@ -100,7 +100,7 @@ function Banner() {
         </div>
         {[1, 2, 3, 4, 5, 6].map((item, index) => {
           const position = [
-            "w-[2rem top-[1%] md:top-[10%] left-[10%]",
+            "w-[2rem ] top-[1%] md:top-[10%] left-[10%]",
             "w-5 md:w-[2.5rem] top-[18%] md:top-[10%] right-[10%]",
             "hidden md:flex w-[1.2rem] top-[40%] left-[25%]",
             "w-[2rem] bottom-[10%] left-[10%]",
