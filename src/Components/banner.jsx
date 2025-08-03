@@ -21,10 +21,10 @@ function Banner() {
       <div className="relative flex flex-col pt-16 md:pt-24 px-4 sm:px lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <div className="max-wxl mx-auto text-center mb-[1.5rem]">
-            <div className="bg-white/5 flex item-center justify-center text-[#fdf0d5] gap-5 w-fit backdrop-blur-md rounded-full py-[1rem] px-[2rem] mx-auto">
+            <div className="bg-[#c7f9cc] flex item-center justify-center text-[#000] gap-5 w-fit backdrop-blur-md rounded-full py-[1rem] px-[2rem] mx-auto">
               <IoStar />
               <motion.h5
-                className="text-[#fdf0d5] whitespace-nowrap"
+                className=" whitespace-nowrap"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, ease: "easeOut" }}
@@ -59,7 +59,7 @@ function Banner() {
           </motion.p>
           <div className="flex justify-center items-center gap-3">
             <motion.button
-              className="flex gap-3 justify-center items-center bg-[#c7f9cc] rounded-[2rem] text-black font-medium text-sm shadow-lg hover:shadow-xl hover:bg-white hover:text-black hover:opacity-95"
+              className="flex gap-3 justify-center items-center bg-[#c7f9cc] rounded-[3rem] text-black font-medium text-sm shadow-lg hover:shadow-xl hover:bg-white hover:text-black hover:opacity-95"
               style={{
                 backdropFilter: "blur(10px",
                 textShadow: "0 0 1px rgba(0,0,0,0.1)",
@@ -77,7 +77,7 @@ function Banner() {
             </motion.button>
 
             <motion.button
-              className="hidden md:flex gap-3 justify-center items-center bg-transparent border-white border-2 text-white rounded-[2rem] font-medium text-sm shadow-lg hover:shadow-xl hover:bg-[#fdf0d5] hover:text-black hover:opacity-95"
+              className="hidden md:flex gap-3 justify-center items-center bg-transparent border-white border-2 text-white rounded-[3rem] font-medium text-sm shadow-lg hover:shadow-xl hover:bg-[#fdf0d5] hover:text-black hover:opacity-95"
               style={{
                 backdropFilter: "blur(10px)",
                 textshadow: "0 0 1px rgba(0,0,0,0.1)",
