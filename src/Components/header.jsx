@@ -75,19 +75,19 @@ function Navbar() {
             : "opacity-0 max-h-0 overflow-hidden"
         }`}
       >
-        <Link to={"/"} className="text-white/50 block px-2">
+        <Link to={"/"} className="text-white/70 block px-2">
           Home
         </Link>
-        <Link to={"/about"} className="text-white/50 block px-2">
+        <Link to={"/about"} className="text-white/70 block px-2">
           About
         </Link>
-        <Link to={"/features"} className="text-white/50 block px-2">
+        <Link to={"/features"} className="text-white/70 block px-2">
           Features
         </Link>
-        <Link to={"/faq"} className="text-white/50 block px-2">
+        <Link to={"/faq"} className="text-white/70 block px-2">
           FAQs
         </Link>
-        <Link to={"/contact"} className="text-white/50 block px-2">
+        <Link to={"/contact"} className="text-white/70 block px-2">
           Contact
         </Link>
       </div>

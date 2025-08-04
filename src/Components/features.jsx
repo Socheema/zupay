@@ -61,7 +61,7 @@ const features = [
 
 function FeaturesComponent() {
   return (
-    <div className="bg-#0c0510 min-h-screen overflow-hidden relative pb-[5rem]">
+    <div className="bg-gradient-to-b from-[#000000] via-[#010203] via-[#fdf0d5] to-[#c7f9cc] min-h-screen overflow-hidden relative pb-[5rem] shadow-lg-[0_4px_30px_rgba(0,0,0,0.1)]">
       <img src={featureimage} alt="" className="w-full h-full absolute" />
       <div className="pt-[5rem] px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
@@ -89,7 +89,7 @@ function FeaturesComponent() {
           >
             <h3 className="text-2xl mb-4">
               <span className="text-[#fdf0d5]">Effortlessly</span>
-              {""}
+              {" "}
               <span className="text-[#c7f9cc]">Manage Your Money</span>
             </h3>
             <p className="text-gray-300 my-8">
