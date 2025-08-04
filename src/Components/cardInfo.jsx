@@ -1,6 +1,6 @@
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { motion } from "motion/react";
-import cardinfo from "../assets/cardInfo.png";
+import cardinfo from "../assets/cardinfo.png";
 import { Link } from "react-router-dom";
 
 function CardInfo() {
