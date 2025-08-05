@@ -109,7 +109,7 @@ function Footer() {
                   placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full px-4 py-2 bg-[#fdf0d5]  rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500/2 text-white placeholder-gray-500"
+                  className="w-full px-4 py-2 bg-[#fdf0d5]  rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500/2 text-black placeholder-gray-500"
                   required
                 />
                 <button
