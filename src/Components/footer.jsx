@@ -5,7 +5,6 @@ import { FaFacebook } from "react-icons/fa";
 import { LiaLinkedin } from "react-icons/lia";
 import { Link } from "react-router-dom";
 
-
 function Footer() {
   const [email, setEmail] = useState("");
 
@@ -16,7 +15,7 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-[#050510] text-gray-300 py-16 px-4 md:px-8">
+    <footer className="bg-[#050510] text-gray-300 pt-16 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-6">
@@ -110,7 +109,7 @@ function Footer() {
                   placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full px-4 py-2 bg-[#fdf0d5]  rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white placeholder-gray-500"
+                  className="w-full px-4 py-2 bg-[#fdf0d5]  rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500/2 text-white placeholder-gray-500"
                   required
                 />
                 <button
@@ -123,7 +122,7 @@ function Footer() {
             </form>
           </div>
         </div>
-        <div className="mt-12 pt-8 border-gray-800 flex flex-col md:flex-row justify-between items-center sapce-y-4 md:space-y-0">
+        <div className="mt-12 pt-8 border-gray-800 flex flex-col md:flex-row justify-between items-center gap-2">
           <p className=" order-2 lg:order-none text-sm test-gray-400 flex flex-col md:flex-row justify-start items-start">
             Copyright © 2025 zupay. All rights reserved.
           </p>
