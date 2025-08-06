@@ -5,10 +5,7 @@ import Features from "./Pages/features";
 import FaqPage from "./Pages/faq";
 import Contact from "./Pages/contact";
 import NotFound from "./Pages/404";
-
-
-
-
+import TermsAndConditions from "./Pages/terms";
 
 function App() {
   return (
@@ -20,8 +17,8 @@ function App() {
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/download" element={<NotFound />} />
+        <Route path="/terms" element={<TermsAndConditions />} />
         <Route path="*" element={<NotFound />} />
-        
       </Routes>
     </Router>
   );
