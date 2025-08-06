@@ -1,11 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/zupay/',
-  plugins: [
-    tailwindcss(),
-    react()],
-})
+  base: '/', // Matches root deployment at https://zu-pay.netlify.app/
+  plugins: [react()],
+});
