@@ -13,7 +13,6 @@ function Navbar() {
           <nav className="flex justify-between items-center px-[.5rem]">
             <div className="flex center gap-2">
               <Link to={"/"}>
-                {/* <img src={Logo} alt="zupay" className="w-[5rem]" /> */}
                 <div className="font-extrabold text-[2rem] ">
                   <span className="text-[#c7f9cc]">ZUP</span>
                   <span className="text-[#fdf0d5]">AY</span>

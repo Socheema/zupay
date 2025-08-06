@@ -1,4 +1,4 @@
-import HeaderComponent from "../Components/header.jsx";
+import Navbar from "../Components/header.jsx";
 import BannerComponent from "../Components/banner.jsx";
 import FeaturesComponent from "../Components/features.jsx";
 import CardInfo from "../Components/cardInfo.jsx";
@@ -40,7 +40,7 @@ function App() {
           opacity: 0.5,
         }}
       />
-      <HeaderComponent />
+      <Navbar />
       <BannerComponent />
       <FeaturesComponent />
       <CardInfo />

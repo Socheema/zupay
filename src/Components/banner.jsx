@@ -8,7 +8,7 @@ import { motion } from "motion/react";
 
 function Banner() {
   return (
-    <div className="relative min-h-[30rem]md:min-h-[55rem] w-full overflow-hidden ">
+    <div className="relative min-h-[30rem] md:min-h-[55rem] w-full overflow-hidden ">
       <div className="absolute inset-0 h-auto top-0 justify-center w-full">
         <div className="relative max-w-4xl -bottom-10 h-auto flex flex-col justify-start item-start w-full">
           <img
