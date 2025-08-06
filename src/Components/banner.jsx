@@ -61,7 +61,7 @@ function Banner() {
             <motion.button
               className="flex gap-3 justify-center items-center bg-[#c7f9cc] rounded-[3rem] text-black font-medium text-sm shadow-lg hover:shadow-xl hover:bg-white hover:text-black hover:opacity-95"
               style={{
-                backdropFilter: "blur(10px",
+                backdropFilter: "blur(10px)",
                 textShadow: "0 0 1px rgba(0,0,0,0.1)",
               }}
               initial={{ opacity: 0, y: 30 }}
